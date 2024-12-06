@@ -26,7 +26,9 @@ Running the Script
 - <original_image>: The path to the input image file (e.g., original.jpg).
 - <altered_image>: The path where the altered image will be saved (e.g., altered.jpg).
 
-2. python challenge.py 0x24 original.jpg altered.jpg
+2. Example:
+- Run the following command on the terminal
+``` python challenge.py 0x24 original.jpg altered.jpg ```
 
 3. Output:
 - The altered image is saved as altered.jpg.
