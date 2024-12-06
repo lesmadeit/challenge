@@ -4,7 +4,8 @@ import sys
 import os
 
 def calculate_hash(file_path, hash_algorithm="sha512"):
-    """Calculate the hash of a file."""
+    
+    # Calculate the hash of a file.
     hash_func = hashlib.new(hash_algorithm)
     with open(file_path, "rb") as f:
         while chunk := f.read(8192):
@@ -12,7 +13,8 @@ def calculate_hash(file_path, hash_algorithm="sha512"):
     return hash_func.hexdigest()
 
 def modify_image(file_path, output_path, target_prefix, hash_algorithm="sha512"):
-    """Modify the image to produce a hash with the desired prefix."""
+
+    # Modify the image to produce a hash with the desired prefix.
     img = Image.open(file_path)
     img = img.convert("RGB")  # Normalize format to ensure consistency.
     img.save(output_path)  # Save to initialize the file.

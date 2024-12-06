@@ -29,14 +29,14 @@ Running the Script
 - <altered_image>: The path where the altered image will be saved (e.g., altered.jpg).
 
 2. Example:
-- Run the following command on the terminal
+- Run the following command on the terminal:
 
 ``` python challenge.py 0x24 original.jpg altered.jpg ```
 
 3. Output:
 - The altered image is saved as altered.jpg.
 - The terminal will display the following:
-Target Prefix: The one specified when running the script without the '0x'(eg. 24)
+Target Prefix: The one specified when running the script without the '0x' (eg. 24)
 Original Image: (original.jpg)
 Altered Image: (altered.jpg)
 
