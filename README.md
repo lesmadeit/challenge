@@ -14,11 +14,13 @@ Features
  Preriquisites
  - Python 3.7 or later
  - Install the required Python library:
+
  ``` pip install pillow ```
 
 Running the Script
 
 1. Command Syntax:
+
 ``` python challenge.py <target_hex_prefix> <original_image> <altered_image>  ```
 
 - challenge.py: the name of the script.
@@ -28,6 +30,7 @@ Running the Script
 
 2. Example:
 - Run the following command on the terminal
+
 ``` python challenge.py 0x24 original.jpg altered.jpg ```
 
 3. Output:
